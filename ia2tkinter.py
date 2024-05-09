@@ -51,6 +51,9 @@ def clear_entries():
     rental_hours_entry.delete(0, tk.END)
     car_combobox.set("")
     bill_label.config(text="")
+    card_number_entry.delete(0, tk.END)
+    expiry_date_entry.delete(0, tk.END)
+    cvv_entry.delete(0, tk.END)
     payment_button.config(state="disabled")
 
 def browse_image():
